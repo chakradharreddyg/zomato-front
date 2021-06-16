@@ -42,15 +42,24 @@
     width: 100%;
     padding: 5px 20px;
 }
-.hero_container{
 
+
+.hero_bg1{
+   position: absolute;
+   z-index: -3;
+   width: 100%;
+    
 }
 
 .hero_container_text{
     font-size: 15px;
+    margin-bottom: 20px;
 }
 .hero_image_container{
     width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+    
 }
 .image{
     width: 100%;
@@ -62,7 +71,7 @@
 
 .em_text{
     margin-top: 30px;
-    font-size: 15px;
+    
     margin-bottom: 20px;
     text-align: center;
 }
@@ -146,6 +155,36 @@
      margin-top: 20px;
      margin-bottom: 20px;   
  }
+
+ .footer{
+     background-image: linear-gradient(to right, #ff512f 0%,#dd2476 51% ,#ff512f 100%);
+     border-radius: 10px 10px 0 0;
+     margin-top: 20%;
+ }
+
+ .footer_list_container{
+     display: flex;
+     align-items: center;
+     width: 100%;
+     justify-content: center;
+ }
+ .footer_list{
+     color: white;
+     list-style-type: none;
+ }
+
+ .footer_image{
+     filter: brightness(0) invert(1);
+ }
+
+ .footer_image_container{
+     width: 100%;
+     height: 70%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
  
  
 
@@ -190,7 +229,7 @@
         margin-bottom: 15px;
     }
     .em_text{
-        font-size: 20px;
+        font-size:30px;
         margin-bottom: 15px;
     }
     .explore_bg{
@@ -208,6 +247,29 @@
     .explore_menu_container{
         position: relative;
     }
-
+    
 }
+@media(min-width:1200px){
+    .hero_image_container{
+        width:60%;
+    }
+    .hero_container_text{
+        font-size: 20px;
+    }
+    .explore_menu_cards{
+        padding: 30px;
+    }
+    .rest_image_parent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .rest_images_text{
+        width: 100%;
+        font-size: 25px;
+    }
+    .images_rest{
+        width: 100%;
 
+    }
+}
