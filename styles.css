@@ -71,7 +71,7 @@
 
 .em_text{
     margin-top: 30px;
-    
+    font-size: 25px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -246,6 +246,9 @@
     }
     .explore_menu_container{
         position: relative;
+    }
+    .updates_text{
+        font-size: 25px;
     }
     
 }
